@@ -3,20 +3,14 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
 import "../styles/Skills.css";
-import Codepic from "../assets/Codepic.png";
-import EditPhoto from "../assets/EditPhoto.png";
-import Kissing from "../assets/Kissing.png";
-import { LinkContainer } from "react-router-bootstrap";
-import { useEffect, useState } from "react";
-import Activity from "./Activity";
-import { NavLink } from "react-router-dom";
+
+
 
 function Skills() {
   const [IsShown, SetIsShown] = useState(false);
 
   let handleSubmit = (e) => {
     SetIsShown(current => !current)
-    console.log("test");
     console.log(IsShown);
   };
 
@@ -29,19 +23,19 @@ function Skills() {
             <div className="card h-75">
               <h1 className="tittle-skill">nulis kode</h1>
               <div className="pic-card">
-                <img src={Codepic} alt="" />
+                <img src="../assets/Codepic.png" alt="" />
               </div>
             </div>
             <div className="card h-75">
               <h1 className="tittle-skill">Edit foto</h1>
               <div className="pic-card">
-                <img src={EditPhoto} alt="" />
+                <img src="../assets/EditPhoto.png" alt="" />
               </div>
             </div>
             <div className="card h-75">
               <h1 className="tittle-skill">Mencintai Ibu dan pacar</h1>
               <div className="pic-card">
-                <img src={Kissing} alt="" />
+                <img src="../assets/Kissing.png" alt="" />
               </div>
             </div>
           </div>
