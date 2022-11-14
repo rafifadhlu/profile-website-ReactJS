@@ -4,7 +4,6 @@ import '../styles/Contact.css'
 
 let Contact = ({link}) => {
   const [data, setData] = useState([]);
-
   useEffect(() => setData(link),[]);
 
   return (
