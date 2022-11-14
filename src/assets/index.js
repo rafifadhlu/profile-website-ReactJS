@@ -1,3 +1,6 @@
-import namaGambar from './EditPhoto.png'
+import EditPhoto from './EditPhoto.png'
+import Codepic from './Codepic.png'
+import Kissing from './Kissing.png'
 
-export {namaGambar}
+
+export {EditPhoto,Codepic,Kissing}
