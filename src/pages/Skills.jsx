@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import { useState } from "react";
 import "../styles/Skills.css";
 import Activity from "./Activity";
-import { EditPhoto, Kissing } from "../assets/asset";
+import {Edit,Kode,Kiss } from '../assets/asset.js'
 
 
 
@@ -24,19 +24,19 @@ function Skills() {
             <div className="card h-75">
               <h1 className="tittle-skill">nulis kode</h1>
               <div className="pic-card">
-                <img src="" alt="" />
+                <img src={Edit} alt="" />
               </div>
             </div>
             <div className="card h-75">
               <h1 className="tittle-skill">Edit foto</h1>
               <div className="pic-card">
-                <img src={EditPhoto} alt="" />
+                <img src={Kode} alt="" />
               </div>
             </div>
             <div className="card h-75">
               <h1 className="tittle-skill">Mencintai Ibu dan pacar</h1>
               <div className="pic-card">
-                <img src={Kissing} alt="" />
+                <img src={Kiss} alt="" />
               </div>
             </div>
           </div>
