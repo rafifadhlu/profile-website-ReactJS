@@ -6,7 +6,7 @@ import "../styles/Skills.css";
 import Activity from "./Activity";
 import { EditPhoto } from "../assets";
 import { Kissing } from "../assets";
-
+import {Codepic} from "../assets";
 
 
 function Skills() {
