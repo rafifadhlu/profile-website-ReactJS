@@ -4,8 +4,9 @@ import Button from "react-bootstrap/Button";
 import { useState } from "react";
 import "../styles/Skills.css";
 import Activity from "./Activity";
-import { EditPhoto,Kissing } from "../assets";
-import Codepic from "../assets/Codepic.png";
+import { EditPhoto } from "../assets";
+import { Kissing } from "../assets";
+
 
 
 function Skills() {
@@ -13,7 +14,6 @@ function Skills() {
 
   let handleSubmit = (e) => {
     SetIsShown(current => !current)
-    console.log(IsShown);
   };
 
   return (

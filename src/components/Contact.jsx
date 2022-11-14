@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import '../styles/Contact.css'
 
 let Contact = ({link}) => {
-  console.log(link);
   const [data, setData] = useState([]);
 
   useEffect(() => setData(link),[]);
