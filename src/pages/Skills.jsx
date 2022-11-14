@@ -29,13 +29,13 @@ function Skills() {
             <div className="card h-75">
               <h1 className="tittle-skill">Edit foto</h1>
               <div className="pic-card">
-                <img src="../assets/EditPhoto.png"; alt="" />
+                <img src="../assets/EditPhoto.png" alt="" />
               </div>
             </div>
             <div className="card h-75">
               <h1 className="tittle-skill">Mencintai Ibu dan pacar</h1>
               <div className="pic-card">
-                <img src="../assets/Kissing.png"; alt="" />
+                <img src="../assets/Kissing.png" alt="" />
               </div>
             </div>
           </div>
