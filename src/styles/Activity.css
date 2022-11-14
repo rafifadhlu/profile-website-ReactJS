@@ -1,0 +1,40 @@
+.Quotes{
+    background-color: rgb(32, 30, 30);
+
+}
+
+.wrapVid{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.galdan{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .Quotes{
+        font-size: 30px;
+    
+    }
+    .wrapVid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .galdan{
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+

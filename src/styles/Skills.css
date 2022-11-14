@@ -1,0 +1,138 @@
+
+#card{
+    height: 40em;
+}
+
+.card-page{
+    display: flex;
+    flex-direction: row;
+    background-image : linear-gradient(to top left, #25316D , #4C0033);
+    border-radius:2em;
+    margin: 50px;
+    display : flex;
+    height : 100%;
+    box-shadow: 2px 0px 10px 0px grey;
+    object-fit: cover ;
+}
+.tittle-skill{
+    color:white;
+    padding: 10px;
+    font-size:28px;
+}
+
+.card{
+    background-color: #25316D;
+    border-radius: 2em;
+    height: 90%;
+    box-shadow: 2px 0px 10px 0px grey;
+    margin: 50px 30px 0px 30px;
+}
+
+.pic-card img{
+    width : 90%;
+}
+
+.pic-card img:hover{
+    transition:ease-in 100ms;
+    width : 90%;
+    height :110%;
+}
+
+.btn-activity{
+    margin: 50px;
+    background-color: #25316D;
+    box-shadow: 2px 0px 10px 0px grey;
+    border:none;
+}
+
+@media only screen and (max-width: 600px) {
+    @keyframes display {
+        0% {
+        transform: translateX(200px);
+        opacity: 0;
+        }
+        10% {
+        transform: translateX(0);
+        opacity: 1;
+        }
+        20% {
+        transform: translateX(0);
+        opacity: 1;
+        }
+        30% {
+        transform: translateX(-200px);
+        opacity: 0;
+        }
+        100% {
+        transform: translateX(-200px);
+        opacity: 0;
+        }
+    }
+
+    .card-page > .card {
+        order: -1;
+        position: absolute;
+        top: 2;
+        width: 90%;
+        left: calc(40% - 100px);
+        opacity: 0;
+        animation: display 8s infinite;
+      }
+      
+      .card:nth-child(1) {
+        animation-delay: 2s;
+      }
+      .card:nth-child(2) {
+        animation-delay: 4s;
+      }
+      .card:nth-child(3) {
+        animation-delay: 6s;
+      }
+
+}
+
+@media only screen and (max-width: 992px) {
+    @keyframes display {
+        0% {
+        transform: translateX(200px);
+        opacity: 0;
+        }
+        10% {
+        transform: translateX(0);
+        opacity: 1;
+        }
+        20% {
+        transform: translateX(0);
+        opacity: 1;
+        }
+        30% {
+        transform: translateX(-200px);
+        opacity: 0;
+        }
+        100% {
+        transform: translateX(-200px);
+        opacity: 0;
+        }
+    }
+    .card-page > .card {
+        order: -1;
+        position: absolute;
+        top: 2;
+        width: 50%;
+        left: calc(40% - 100px);
+        opacity: 0;
+        animation: display 8s infinite;
+      }
+
+      .card:nth-child(1) {
+        animation-delay: 2s;
+      }
+      .card:nth-child(2) {
+        animation-delay: 4s;
+      }
+      .card:nth-child(3) {
+        animation-delay: 6s;
+      }
+}
+
+

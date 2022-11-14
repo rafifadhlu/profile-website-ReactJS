@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+
+.wrapperPage{
+    margin-top: 50px;
+}
+
+.detil-intro{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CustomGreet{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 12.5em;
+}
+
+.text-right{
+    width: 70%;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .detil-intro{
+        flex-direction: column;
+        text-align: center;
+
+     }
+     .CustomGreet{
+        font-size: 10em
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .detil-intro{
+        flex-direction: column;
+        text-align: center;
+     }
+     
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .detil-intro{
+        flex-direction: row;
+        text-align: center;
+     }
+     
+    
+
+}

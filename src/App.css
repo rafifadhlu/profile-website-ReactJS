@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+#root{
+    color:white;
+    background-color: #25316D;
+    font-family: ruda ,sans-serif;
+}

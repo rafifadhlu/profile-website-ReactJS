@@ -1,0 +1,68 @@
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+
+}
+
+.intro p{
+    font-size: 2em;
+    text-align: left;
+    align-items: "center";
+    width: 40%;
+}
+
+.card{
+    width: 15rem;
+    height: 19rem;
+    
+    
+}
+
+.card img{
+    object-fit: cover;
+    height:19rem;
+    border-radius: 20px;
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 576px) {
+    .wrap{
+        display: flex;
+        font-size: 10px;
+        padding-top: 50px;
+    }
+    .intro{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        gap:0;
+    }
+
+    .intro p{
+        text-align: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    .intro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 0;
+        
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .intro{
+        gap: 20em;
+    }
+}
