@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import { useState } from "react";
 import "../styles/Skills.css";
 import Activity from "./Activity";
+import { namaGambar } from "../assets";
 import { NavLink } from "react-router-dom";
 
 function Skills() {
@@ -29,7 +30,7 @@ function Skills() {
             <div className="card h-75">
               <h1 className="tittle-skill">Edit foto</h1>
               <div className="pic-card">
-                <img src="../assets/EditPhoto.png" alt="" />
+                <img src={namaGambar} alt="" />
               </div>
             </div>
             <div className="card h-75">
