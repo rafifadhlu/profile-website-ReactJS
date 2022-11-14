@@ -1,10 +1,13 @@
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-
+import { useState } from "react";
 import "../styles/Skills.css";
-
-
+import Codepic from "../assets/Codepic.png";
+import EditPhoto from "../assets/EditPhoto.png";
+import Kissing from "../assets/Kissing.png";
+import Activity from "./Activity";
+import { NavLink } from "react-router-dom";
 
 function Skills() {
   const [IsShown, SetIsShown] = useState(false);
@@ -23,19 +26,19 @@ function Skills() {
             <div className="card h-75">
               <h1 className="tittle-skill">nulis kode</h1>
               <div className="pic-card">
-                <img src="../assets/Codepic.png" alt="" />
+                <img src={Codepic} alt="" />
               </div>
             </div>
             <div className="card h-75">
               <h1 className="tittle-skill">Edit foto</h1>
               <div className="pic-card">
-                <img src="../assets/EditPhoto.png" alt="" />
+                <img src={EditPhoto} alt="" />
               </div>
             </div>
             <div className="card h-75">
               <h1 className="tittle-skill">Mencintai Ibu dan pacar</h1>
               <div className="pic-card">
-                <img src="../assets/Kissing.png" alt="" />
+                <img src={Kissing} alt="" />
               </div>
             </div>
           </div>
