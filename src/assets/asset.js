@@ -1,5 +1,5 @@
 import Edit from './EditPhoto.png'
-import Kode from './Codepic.png'
+import Kode from './CodePic.png'
 import Kiss from './Kissing.png'
 
 
