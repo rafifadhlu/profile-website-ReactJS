@@ -24,7 +24,7 @@ function Skills() {
             <div className="card h-75">
               <h1 className="tittle-skill">nulis kode</h1>
               <div className="pic-card">
-                {/* <img src={Codepic} alt="" /> */}
+                <img src="" alt="" />
               </div>
             </div>
             <div className="card h-75">
