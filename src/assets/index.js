@@ -3,4 +3,4 @@ import Codepic from './Codepic.png'
 import Kissing from './Kissing.png'
 
 
-export {EditPhoto,Codepic,Kissing}
+export {EditPhoto,Codepic,Kissing};

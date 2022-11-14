@@ -4,8 +4,9 @@ import Button from "react-bootstrap/Button";
 import { useState } from "react";
 import "../styles/Skills.css";
 import Activity from "./Activity";
-import { EditPhoto,Codepic,Kissing } from "../assets";
-import { NavLink } from "react-router-dom";
+import { EditPhoto,Kissing } from "../assets";
+import Codepic from "../assets/Codepic.png";
+
 
 function Skills() {
   const [IsShown, SetIsShown] = useState(false);
@@ -47,7 +48,6 @@ function Skills() {
           onClick={handleSubmit}
           className="btn-activity"
           variant="primary"
-          
         >
           See more Activity
         </Button>
