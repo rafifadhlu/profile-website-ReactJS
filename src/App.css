@@ -6,3 +6,10 @@
     background-color: #25316D;
     font-family: ruda ,sans-serif;
 }
+
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}

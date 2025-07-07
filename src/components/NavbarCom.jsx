@@ -5,11 +5,10 @@ import Homeicon from "../assets/Homeicon.svg";
 import Abouticon from "../assets/Abouticon.svg";
 import Skillsicon from "../assets/Skillsicon.svg";
 import Contacticon from "../assets/Contacticon.svg";
+import PortoIcon from "../assets/Porto.png";
+
 import {LinkContainer} from 'react-router-bootstrap'
 import { NavLink } from "react-router-dom";
-
-
-
 
 
 
@@ -41,11 +40,17 @@ function NavbarCom() {
              
               <NavLink to='/About' className="text-white text-decoration-none about">
                 <div className="d-flex flex-row align-items-center">
-                  <img className="m-2" src={Abouticon} width="20px" />
+                  <img className="m-2" src={Contacticon} width="20px" />
                   <p className="d-flex m-0">About</p>
                 </div>
               </NavLink>
-             
+
+             <NavLink to='/porto' className="text-white text-decoration-none skills">
+                <div className="d-flex flex-row align-items-center">
+                  <img className="m-2" src={PortoIcon} width="20px" />
+                  <p className="d-flex m-0">Portofolio</p>
+                </div>
+              </NavLink>
              
               <NavLink to='/Skills' className="text-white text-decoration-none skills">
                 <div className="d-flex flex-row align-items-center">
@@ -53,6 +58,8 @@ function NavbarCom() {
                   <p className="d-flex m-0">Skills</p>
                 </div>
               </NavLink>
+
+
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -7,6 +7,7 @@ import Error from "./pages/Error";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
+import Portofolio from "./pages/Portofolio";
 
 import {
   createBrowserRouter,
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="/About" element={<About />} />
       <Route path="/Skills" element={<Skills />} />
+      <Route path="/porto" element={<Portofolio />} />
     </Route>
   )
 );

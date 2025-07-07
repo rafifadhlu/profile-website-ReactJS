@@ -34,7 +34,7 @@ function Skills() {
               </div>
             </div>
             <div className="card h-75">
-              <h1 className="tittle-skill">Mencintai Ibu dan pacar</h1>
+              <h1 className="tittle-skill">Read MANHWA MANGA or whatever</h1>
               <div className="pic-card">
                 <img src={Kiss} alt="" />
               </div>

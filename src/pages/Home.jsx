@@ -14,8 +14,7 @@ function Home() {
           <div className="intro ">
             <p >
               Gimana kabarnya, baik kan? Kenalin, Aku Rafi Fadhlurokhman,
-              Panggil aja rafi. Aku sedang belajar tentang Front End Web
-              Developer nih di Skilvul. Btw ini web pertama ku loh.
+              Panggil aja rafi. Aku sedang belajar Web development dan Artificial Intelligence.
             </p>
             <Card className="card" >
               <img src={fotopp}/>

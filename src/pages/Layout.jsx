@@ -21,10 +21,12 @@ let url = [
   ];
 
 function Layout() {
+  document.title = "Portofolio";
+
   return (
     <>
       <NavbarCom />
-      <main>
+      <main style={{ height: "100%" }}>
         <Outlet />
       </main>
       <Contact link={url}/>

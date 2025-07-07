@@ -14,8 +14,8 @@ function About() {
                 <div className="detil-intro">
                     <div className="CustomGreet">Allo!</div>
                     <div className="text-right p-1"> Aku seorang kapiten mempunyai pedang panjang kalau berjalan
-                        prok prok prok. aku seorang kapiten. Saya Rafi saat ini sedang menjalankan study di Skilvul mengambil
-                        fokus Front End Web Development. Belajar disini asik tapi banyak tugas tapi asik tapi tapi au ah capek
+                        prok prok prok. Saya Rafi saat ini sedang fokus mempelajari Django dan 
+                        memperdalam pemahaman di AI.
                     </div>
                 </div>
                 <Skills/>
