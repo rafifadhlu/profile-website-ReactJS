@@ -37,7 +37,7 @@ let data = [
       image: tesString,
       link: "Matching String",
       title: "Matching String",
-      description: "Supporting Web for matching string, this project was for internship-purpose. It uses Streamlit and Ngrock",    
+      description: "Supporting Web for matching string, this project was for internship-purpose. It uses Streamlit and Ngrock with Fuzzy String Matching",    
     },
     {
       id: 6,

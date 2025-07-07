@@ -38,15 +38,16 @@ function Activity() {
             </div>
             <div className="embed-responsive embed-responsive-21by9">
               <iframe
-                className="m-2"
-                width="400px"
-                height="315px"
+                className="m-2 sm:w-50 md:w-75 lg:w-100 embed-responsive-item"
+                // width="400px"
+                // height="315px"
                 src="https://www.youtube.com/embed/jMiur76Qe7M"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
+
             </div>
           </div>
           <div className="d-flex flex-row mt-5 mb-5 justify-content-center">
