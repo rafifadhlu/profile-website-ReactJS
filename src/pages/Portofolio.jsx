@@ -23,7 +23,7 @@ let data = [
       image: berkelanaYuk,
       link: "https://berkelanayuk.itch.io/berkelana-yuk",
       title: "Berkelana Yuk! Game",
-      description: "A project based on a to-do list that built using vanilla PHP with bootstrap and MySQL",    
+      description: "A 3D game project that i made for my thesis using Unity3D with C# programming and Blender for 3D assets.",    
     },
     {
       id: 4,
