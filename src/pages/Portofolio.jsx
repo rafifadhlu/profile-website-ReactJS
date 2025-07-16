@@ -35,21 +35,21 @@ let data = [
     {
       id: 5,
       image: tesString,
-      link: "Matching String",
+      link: "https://colab.research.google.com/drive/148RP5j57VYJCdCgWT-1kuEZq5lXJj2Al?usp=sharing",
       title: "Matching String",
       description: "Supporting Web for matching string, this project was for internship-purpose. It uses Streamlit and Ngrock with Fuzzy String Matching",    
     },
     {
       id: 6,
       image: Clusteringpic,
-      link: "https://drive.google.com/drive/u/1/folders/1x32kCQDv2e7lQnaKCK0QgkiyPf1Uge2f",
+      link: "https://drive.google.com/file/d/1_n7DR08fcBHfctJdWsz7q7c9dJu2tYzl/view?usp=drive_link",
       title: "Clustering Analysis of Brand Car",
       description: "Analysis of clustering brand car using K-Means to find the best cluster for each brand.",    
     },
     {
       id: 7,
       image: MLPic,
-      link: "https://drive.google.com/drive/u/1/folders/1x32kCQDv2e7lQnaKCK0QgkiyPf1Uge2f",
+      link: "https://drive.google.com/file/d/1X_5x-28_q61_OrLBqz-SKL6PY-K1WGdo/view?usp=drive_link",
       title: "Customer Churn Analysis PT XYZ (In Charge in ML Team)",
       description: "Final project for Startup campus data science bootcamp, focused on predict customer who potential to leave. ",    
     },
@@ -65,11 +65,12 @@ function Portofolio() {
             <Button
           className="btn-activity"
           variant="primary"
+          target="_blank"
           href="https://www.linkedin.com/in/rafifadhlu/"
         >
           <img src={PortofPic} alt="" width="30" />
           <span className="ms-2">
-            See more Works
+            See more Works & Certificate
           </span>
         </Button>
            </div>
